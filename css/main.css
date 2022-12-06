@@ -513,10 +513,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.hidden {
-  display: none;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
