@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	/* width */
+	::-webkit-scrollbar {
+		@apply w-[6px];
+	}
+	
+	/* Track */
+	::-webkit-scrollbar-track {
+		@apply bg-gray-300;
+	}
+	
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		@apply bg-gray-400;
+	}
+	
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		@apply bg-gray-500;
+	}
+
+	html {
+		font-family: 'Montserrat', sans-serif;
+	}
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+	body {
+		@apply text-white;
+		@apply leading-relaxed;
+	}
+	.menu-item:not(.active) {
+		@apply text-secondary;
+	}
+	.menu-item:not(.active):hover {
+		@apply text-tertiary;
+	}
+	.menu-item.active {
+		@apply text-quaternary;
+	}
+	.typed-cursor {
+		@apply text-quaternary;
+	}
+	.header-gradient {
+		background: rgb(5,5,5);
+		background: linear-gradient(0deg, rgba(5,5,5,0.65) 0%, rgba(23,24,25,0) 50%, rgba(5,5,5,0.65) 100%);
+	}
+	.topbar-gradient {
+		background: rgb(5,5,5);
+		background: linear-gradient(0deg, rgba(5,5,5,0) 0%, rgba(5,5,5,0.75) 100%);
+	}
+	.clip-path-inset {
+		clip-path: inset(0);
+	}
 }
