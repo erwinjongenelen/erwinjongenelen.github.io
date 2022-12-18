@@ -6,6 +6,7 @@
 	/* width */
 	::-webkit-scrollbar {
 		@apply w-[6px];
+		@apply h-[6px];
 	}
 	
 	/* Track */
@@ -55,5 +56,33 @@
 	}
 	.clip-path-inset {
 		clip-path: inset(0);
+	}
+	.filter-btn {
+		@apply text-primary;
+		@apply bg-transparent;
+		@apply border-2;
+		@apply border-solid;
+		@apply border-primary;
+		@apply transition-all;
+		@apply uppercase;
+		@apply shadow-md;
+		@apply font-bold;
+		@apply py-3;
+		@apply px-4; 
+		@apply rounded-lg;
+	}
+	.filter-btn.is-checked {
+		@apply text-white;
+		@apply bg-primary;
+	}
+	.filter-btn:not(.is-checked):hover {
+		@apply border-secondary;
+		@apply text-secondary;
+	}
+	.skill-item {
+		@apply rounded-lg;
+		@apply font-bold;
+		@apply text-sm;
+		@apply inline-block;
 	}
 }

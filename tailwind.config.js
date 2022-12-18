@@ -6,7 +6,12 @@ module.exports = {
   safelist: [
 		'typed-cursor',
     	'scroll-smooth',
-		'right-[110px]'
+		'right-[110px]',
+		'text-primary',
+		'text-secondary',
+		'text-tertiary',
+		'text-quaternary',
+		'text-quinary',
 	],
 	theme: {
 		screens: {

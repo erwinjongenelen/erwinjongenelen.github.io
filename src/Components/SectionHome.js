@@ -74,7 +74,7 @@ function SectionHome() {
 					</div>
 				</div>
 				<h1 id="home-intro" className="mt-6 text-lg lg:text-2xl text-gray-300">Hallo, ik ben <span className="font-bold text-tertiary">Erwin Jongenelen</span></h1>
-				<div id="home-function" className="flex lg:mt-4 text-xl lg:text-4xl justify-center">
+				<div id="home-function" className="flex lg:mt-3 text-xl lg:text-4xl justify-center">
 					<div ref={functionText} className="text-right font-bold uppercase tracking-widest text-quaternary"></div>
 					<div className="text-left uppercase tracking-widest">Developer</div>		
 				</div>
