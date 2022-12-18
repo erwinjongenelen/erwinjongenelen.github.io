@@ -25,7 +25,7 @@
 	}
 
 	html {
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Poppins', sans-serif;
 	}
 }
 
@@ -58,14 +58,13 @@
 		clip-path: inset(0);
 	}
 	.filter-btn {
-		@apply text-primary;
+		@apply text-secondary;
 		@apply bg-transparent;
 		@apply border-2;
 		@apply border-solid;
-		@apply border-primary;
+		@apply border-secondary;
 		@apply transition-all;
 		@apply uppercase;
-		@apply shadow-md;
 		@apply font-bold;
 		@apply py-3;
 		@apply px-4; 
@@ -73,11 +72,11 @@
 	}
 	.filter-btn.is-checked {
 		@apply text-white;
-		@apply bg-primary;
+		@apply bg-secondary;
 	}
 	.filter-btn:not(.is-checked):hover {
-		@apply border-secondary;
-		@apply text-secondary;
+		@apply border-primary;
+		@apply text-primary;
 	}
 	.skill-item {
 		@apply rounded-lg;

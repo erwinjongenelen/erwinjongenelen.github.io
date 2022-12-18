@@ -9,7 +9,7 @@ const Resume = [
                 "company": "RenewMyID",
                 "labelText": "2015 - heden",
                 "labelBg": "quaternary",
-                "text": "Het ontwikkelen van volledig op maat gemaakte WordPress thema's voor websites, webshops, intranet en narrowcasting -systemen op basis van o.a. Bootstrap en Javascript (ES6). Het beheren en up-to-date houden van de basis voor deze producten door middel van GIT is één van mijn verantwoordelijkheden. Als lead developer ben ik tevens verantwoordelijk voor de kwaliteitscontrole van opgeleverde projecten."
+                "text": "Het ontwikkelen van volledig op maat gemaakte WordPress thema's voor websites, webshops, intranet en narrowcasting -systemen op basis van o.a. Bootstrap en Javascript (ES6). Het beheren en up-to-date houden van de basis voor deze producten door middel van GIT is één van mijn verantwoordelijkheden. Als lead developer ben ik tevens verantwoordelijk voor de kwaliteitscontrole van op te leveren projecten."
             },
             {
                 "id": 3,
