@@ -123,7 +123,7 @@ function SectionSkills() {
 			<ButtonNextSection { ...{
 				text: "Let's connect", 
 				textID: 'text-connect', 
-				bgClass: 'bg-secondary', 
+				bgClass: 'bg-senary', 
 				target: '#contact' } } 
 				/>
 

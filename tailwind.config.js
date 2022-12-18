@@ -12,6 +12,7 @@ module.exports = {
 		'text-tertiary',
 		'text-quaternary',
 		'text-quinary',
+		'bg-senary'
 	],
 	theme: {
 		screens: {
@@ -30,6 +31,7 @@ module.exports = {
 				tertiary: '#7663f2',
 				quaternary: '#d9b97e',
 				quinary: '#a64444',
+				senary: '#130F29',
 				dark: '#171819',
 				darkest: '#050505'
 			},

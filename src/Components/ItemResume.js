@@ -27,7 +27,7 @@ function ItemResume({name, company, labelText, labelBg, text}) {
 
 			gsap.from('.resume-content', {
 				autoAlpha: 0,
-				y: 50,
+				y: 100,
 				duration: 0.5,
 				scrollTrigger: {
 					trigger: resumeItemElement,
