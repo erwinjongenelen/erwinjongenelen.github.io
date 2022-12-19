@@ -34,6 +34,11 @@
 		@apply text-white;
 		@apply leading-relaxed;
 	}
+	.space-bg {
+		background-image: url(./Assets/space.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+	}
 	.menu-item:not(.active) {
 		@apply text-secondary;
 	}
@@ -53,9 +58,6 @@
 	.topbar-gradient {
 		background: rgb(5,5,5);
 		background: linear-gradient(0deg, rgba(5,5,5,0) 0%, rgba(5,5,5,0.75) 100%);
-	}
-	.clip-path-inset {
-		clip-path: inset(0);
 	}
 	.filter-btn {
 		@apply text-secondary;

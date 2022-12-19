@@ -61,8 +61,8 @@ function SectionHome() {
 	}, []);
 
 	return (
-		<div ref={home} id="home" className="min-h-screen bg-primary flex items-center relative overflow-hidden clip-path-inset">
-			<img className="fixed w-full h-full left-0 top-0 object-cover object-center opacity-10" src={space} alt="Space" />
+		<div ref={home} id="home" className="min-h-screen bg-primary flex items-center relative overflow-hidden">
+			<div className="space-bg absolute w-full h-full left-0 top-0 opacity-10"></div>
 			<SvgCircuit />
 
 			<div className="header-gradient absolute left-0 top-0 w-full h-full z-20"></div>
@@ -70,7 +70,7 @@ function SectionHome() {
 			<div className="container mx-auto text-center relative z-30">
 				<div id="home-avatar" className="w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] mx-auto bg-gradient-to-t from-quinary to-tertiary rounded-full w-full h-full p-2 left-0 top-0 shadow-xl">
 					<div className="bg-gradient-to-t from-gray-300 to-white rounded-full w-fulll h-full overflow-hidden relative">
-						<img className="absolute left-0 top-0 w-full h-full" src={profileImg} alt="Avatar" />
+						<img className="absolute left-0 top-0 w-full h-full rounded-full" src={profileImg} alt="Avatar" />
 					</div>
 				</div>
 				<h1 id="home-intro" className="mt-6 text-lg lg:text-2xl text-gray-300">Hallo, ik ben <span className="font-bold text-tertiary">Erwin Jongenelen</span></h1>

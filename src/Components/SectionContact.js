@@ -41,8 +41,8 @@ function SectionContact() {
 	}, []);
 
 	return (
-		<div ref={contact} id="contact" className="min-h-screen bg-secondary flex items-center relative overflow-hidden clip-path-inset">
-			<img className="fixed w-full h-full left-0 top-0 object-cover object-center opacity-10" src={space} alt="Space" />
+		<div ref={contact} id="contact" className="min-h-screen bg-secondary flex items-center relative overflow-hidden">
+			<div className="space-bg absolute w-full h-full left-0 top-0 opacity-10"></div>
 			<SvgCircuit />
 			<div className="header-gradient absolute left-0 top-0 w-full h-full z-20"></div>
 
