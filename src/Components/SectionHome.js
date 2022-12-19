@@ -22,7 +22,6 @@ function SectionHome() {
 
 			const tl = gsap.timeline();
 			tl.to('#home-avatar', { y: 230, scale: 0.75, autoAlpha: 0, duration: 1 } )
-			.to('#home-avatar img', { scale: 1.4, duration: 1 }, '-=1' )
 			.to('#home-intro', { autoAlpha: 0, y: 150, scale: 0.9, duration: 0.8 }, '-=1')
 			.to('#home-function', { autoAlpha: 0, y: 115, scale: 0.9, duration: 0.6 }, '-=1')
 			.to('#circuit-wrapper', { scale: 1.1, autoAlpha: 0.05, duration: 1 }, '-=1');
