@@ -13,7 +13,7 @@ const Resume = [
             },
             {
                 "id": 3,
-                "name": "Web Developer",
+                "name": "Webdeveloper",
                 "company": "Aliens Reclamebureau",
                 "labelText": "Jun - Aug 2015",
                 "labelBg": "secondary",
@@ -21,7 +21,7 @@ const Resume = [
             },
             {
                 "id": 2,
-                "name": "Web Developer / Designer",
+                "name": "Webdeveloper / Designer",
                 "company": "Karelgeenen.nl",
                 "labelText": "Zomer 2013",
                 "labelBg": "secondary",
@@ -29,7 +29,7 @@ const Resume = [
             },
             {
                 "id": 1,
-                "name": "Web Developer / Designer en DTP'er",
+                "name": "Webdeveloper / Designer en DTP'er",
                 "company": "PublisherPartners",
                 "labelText": "2011 - 2012",
                 "labelBg": "secondary",
@@ -59,7 +59,7 @@ const Resume = [
             },
             {
                 "id": 2,
-                "name": "Stage Web Development & DTP",
+                "name": "Stage Webdevelopment & DTP",
                 "company": "PublisherPartners",
                 "labelText": "2011",
                 "labelBg": "secondary",
