@@ -104,6 +104,11 @@ const Skills = [
 		"cat": "programming",
 		"title": "NodeJS",
 	},
+	{
+		"id": "programming-23",
+		"cat": "programming",
+		"title": "VUE",
+	},
 
 	{
 		"id": "software-1",
