@@ -163,7 +163,7 @@ const Skills = [
 	{
 		"id": "soft-skills-7",
 		"cat": "soft-skills",
-		"title": "Perfectionistisch",
+		"title": "Nauwkeurig",
 	},
 	{
 		"id": "soft-skills-8",
