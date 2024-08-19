@@ -131,6 +131,16 @@ const Skills = [
 		"title": "Microsoft Office",
 	},
 	{
+		"id": "software-5",
+		"cat": "software",
+		"title": "GitHub",
+	},
+	{
+		"id": "software-6",
+		"cat": "software",
+		"title": "BitBucket",
+	},
+	{
 		"id": "soft-skills-1",
 		"cat": "soft-skills",
 		"title": "Stagebegeleiding",
